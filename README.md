@@ -6,7 +6,7 @@ A basic blog site created for learning PHP and MySQL.
 
 - Copy simple-php-blog inside php-mamp src folder.
 - Copy SQL statements from config/db_create.sql to create a new database in phpMyAdmin.
-- Open index.php locally and run the operations to create, read, update and delete blog posts.
+- Open the files locally and run the operations to create, read, update and delete blog posts.
 
 # Technologies used
 

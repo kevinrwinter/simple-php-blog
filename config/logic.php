@@ -1,10 +1,8 @@
 <?php 
 
-  // Connection parameters
   $conn = mysqli_connect('db', 'root', 'lionPass', 'php_blog');
 
 
-  // Display connection error warning
   if(!$conn) {
     echo '<h3 class="message-danger">Unable to establish database connection</h3>';
   }
@@ -33,7 +31,6 @@
   $errors = array('title'=>'', 'author'=>'', 'content'=>'');
 
   // CREATE
-  // Insert input values into database
   if (isset($_REQUEST["new_post"])) {
 
     // Check title
@@ -51,7 +48,6 @@
       $errors['author'] = 'Blog author is required <br />';
     } else {
       $author = $_POST['author'];
-      // Perform regular expression match
       if (!preg_match('/^[a-zA-Z\s]+$/', $author)) {
         $errors['author'] = 'Author must be letters and spaces only';
       }
@@ -75,7 +71,6 @@
       $sql = "INSERT INTO posts(title, author, content) VALUES('$title', '$author', '$content')";
       mysqli_query($conn, $sql);
 
-      // Redirect back to homepage
       header("Location: index.php?info=added");
       exit();
     }
