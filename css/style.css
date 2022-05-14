@@ -1,0 +1,69 @@
+nav {
+  margin-bottom: 4rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+textarea {
+  height: 50vh !important;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.post-form {
+  padding: 1.25rem;
+}
+
+.form-group {
+  margin-bottom: 2rem;
+}
+
+.brand-text {
+  color: #474a8a !important;
+}
+
+.btn {
+  background-color: #787cb5;
+  color: #000;
+}
+
+.btn:hover {
+  background-color: #00758f;
+  color: #f29111;
+}
+
+.content h6 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 0 0.75rem;
+}
+
+.card .content p {
+  text-align: left;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.message {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+.message-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+.message-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
