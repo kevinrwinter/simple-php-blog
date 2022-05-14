@@ -1,7 +1,7 @@
 <?php 
 
   // Connection parameters
-  $conn = mysqli_connect('db', 'root', 'lionPass', 'php_dev');
+  $conn = mysqli_connect('db', 'root', 'lionPass', 'php_blog');
 
 
   // Display connection error warning
